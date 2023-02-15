@@ -1,0 +1,24 @@
+16:17:15 **** Incremental Build of configuration Debug for project 5_ADC_SingleConversion ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -c -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/5_ADC_SingleConversion/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/5_ADC_SingleConversion/Drivers/CMSIS/Include" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/5_ADC_SingleConversion/Drivers/STM32F4xx_HAL_Driver/Inc" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/5_ADC_SingleConversion/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:29:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+   29 |   printf("Sensor Value: %d\r\n", sensorValue);
+      |                         ~^       ~~~~~~~~~~~
+      |                          |       |
+      |                          int     uint32_t {aka long unsigned int}
+      |                         %ld
+arm-none-eabi-gcc -o "5_ADC_SingleConversion.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Codes\Embedded Programming\Tutorials\HAL_API\5_ADC_SingleConversion\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="5_ADC_SingleConversion.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 5_ADC_SingleConversion.elf
+ 
+arm-none-eabi-size   5_ADC_SingleConversion.elf 
+arm-none-eabi-objdump -h -S  5_ADC_SingleConversion.elf  > "5_ADC_SingleConversion.list"
+   text	   data	    bss	    dec	    hex	filename
+  13144	    120	   1728	  14992	   3a90	5_ADC_SingleConversion.elf
+Finished building: default.size.stdout
+ 
+Finished building: 5_ADC_SingleConversion.list
+ 
+
+16:17:16 Build Finished. 0 errors, 1 warnings. (took 530ms)
+

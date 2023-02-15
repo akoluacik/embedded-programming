@@ -1,0 +1,18 @@
+15:33:23 **** Incremental Build of configuration Debug for project 4_ADC_ContinuousConversion ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -c -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Drivers/CMSIS/Include" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Inc" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/adc.d" -MT"Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/adc.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -c -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Drivers/CMSIS/Include" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Inc" -I"D:/Codes/Embedded Programming/Tutorials/HAL_API/4_ADC_ContinuousConversion/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "4_ADC_ContinuousConversion.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Codes\Embedded Programming\Tutorials\HAL_API\4_ADC_ContinuousConversion\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="4_ADC_ContinuousConversion.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 4_ADC_ContinuousConversion.elf
+ 
+arm-none-eabi-size   4_ADC_ContinuousConversion.elf 
+arm-none-eabi-objdump -h -S  4_ADC_ContinuousConversion.elf  > "4_ADC_ContinuousConversion.list"
+   text	   data	    bss	    dec	    hex	filename
+   8692	     20	   1716	  10428	   28bc	4_ADC_ContinuousConversion.elf
+Finished building: default.size.stdout
+ 
+Finished building: 4_ADC_ContinuousConversion.list
+ 
+
+15:33:23 Build Finished. 0 errors, 0 warnings. (took 547ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;4_ADC_ContinuousConversion&apos;" deleteContents="true" description="Delete resource &apos;4_ADC_ContinuousConversion&apos;" element1="/4_ADC_ContinuousConversion" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1676451231021"/>&#x0A;<refactoring comment="Delete resource &apos;4_ADC_ContinuousConversion/Debug&apos;" deleteContents="false" description="Delete resource &apos;4_ADC_ContinuousConversion/Debug&apos;" element1="/4_ADC_ContinuousConversion/Debug" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1676451252667"/>
+</session>

@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_GpioInputOutput.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_ADC_SingleConversion
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_GpioInputOutput\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_GpioInputOutput.elf/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:1_GpioInputOutput.elf/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:4_ADC_ContinuousConversion/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:5_ADC_SingleConversion/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:1_GpioInputOutput.elf/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:1_GpioInputOutput.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
