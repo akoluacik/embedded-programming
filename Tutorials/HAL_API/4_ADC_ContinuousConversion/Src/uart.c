@@ -6,7 +6,7 @@
  */
 
 #include "stm32f4xx_hal.h"
-
+#include <string.h>
 UART_HandleTypeDef huart2;
 
 int __io_putchar(int ch)
@@ -45,4 +45,9 @@ void uart_init(void)
 	huart2.Init.OverSampling = UART_OVERSAMPLING_16;
 	HAL_UART_Init(&huart2);
 
+}
+
+void uart_transmit(uint8_t *msg)
+{
+	HAL_UART_Transmit(&huart2, msg, strlen(msg), 10);
 }

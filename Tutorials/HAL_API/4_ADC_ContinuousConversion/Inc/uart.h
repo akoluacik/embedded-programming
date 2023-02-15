@@ -9,5 +9,5 @@
 #define UART_H_
 
 void uart_init(void);
-
+void uart_transmit(uint8_t *msg);
 #endif /* UART_H_ */
