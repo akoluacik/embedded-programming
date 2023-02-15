@@ -3,7 +3,8 @@
 #include "uart.h"
 #include "adc.h"
 #include <stdlib.h>
-#include <string.h>
+
+
 uint32_t sensorValue;
 extern ADC_HandleTypeDef hadc1;
 char value[5];
@@ -24,6 +25,7 @@ int main()
 			strcat(value, "\n");
 			uart_transmit((uint8_t*)value);
 		}
+		printf("Sensor Value: %lu", sensorValue);
 	}
 
 }

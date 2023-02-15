@@ -12,6 +12,6 @@
 
 uint32_t pa0_adc_read(void);
 void adc_init_start(void);
-void adc_continuous_conv_init(void);
+void adc_pa0_continuous_conv_init(void);
 
 #endif /* ADC_H_ */
