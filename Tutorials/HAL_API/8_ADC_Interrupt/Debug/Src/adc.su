@@ -1,0 +1,5 @@
+D:/Codes/Embedded Programming/Tutorials/HAL_API/8_ADC_Interrupt/Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+D:/Codes/Embedded Programming/Tutorials/HAL_API/8_ADC_Interrupt/Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Src/adc.c:14:10:pa0_adc_read	8	static
+../Src/adc.c:19:6:adc_pa0_interrupt_init	56	static
+../Src/adc.c:60:6:ADC_IRQHandler	8	static
