@@ -1,0 +1,5 @@
+../Src/TIMx.c:15:6:TIMx_Base_Init	16	static
+../Src/TIMx.c:30:6:TIMx_Base_Start	8	static
+../Src/TIMx.c:35:6:TIMx_OC_Init	40	static
+../Src/TIMx.c:56:6:TIMx_OC_Start	8	static
+../Src/TIMx.c:62:10:TIMx_GetCounterValue	4	static
