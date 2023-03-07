@@ -1,0 +1,2 @@
+../Src/main.c:6:5:main	16	static
+../Src/main.c:28:7:SysTick_Handler	8	static
