@@ -5,18 +5,21 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Src/exti.c \
 ../Src/main.c \
 ../Src/syscalls.c \
 ../Src/sysmem.c \
 ../Src/system_stm32f4xx.c 
 
 OBJS += \
+./Src/exti.o \
 ./Src/main.o \
 ./Src/syscalls.o \
 ./Src/sysmem.o \
 ./Src/system_stm32f4xx.o 
 
 C_DEPS += \
+./Src/exti.d \
 ./Src/main.d \
 ./Src/syscalls.d \
 ./Src/sysmem.d \
@@ -30,7 +33,7 @@ Src/%.o Src/%.su: ../Src/%.c Src/subdir.mk
 clean: clean-Src
 
 clean-Src:
-	-$(RM) ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/system_stm32f4xx.d ./Src/system_stm32f4xx.o ./Src/system_stm32f4xx.su
+	-$(RM) ./Src/exti.d ./Src/exti.o ./Src/exti.su ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/system_stm32f4xx.d ./Src/system_stm32f4xx.o ./Src/system_stm32f4xx.su
 
 .PHONY: clean-Src
 

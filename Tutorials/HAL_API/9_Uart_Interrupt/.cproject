@@ -40,10 +40,10 @@
 									<listOptionValue builtIn="false" value="STM32F411xE"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1971049639" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\10_Timer_Timebase\Drivers\CMSIS\Device\ST\STM32F4xx\Include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\10_Timer_Timebase\Drivers\CMSIS\Include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\10_Timer_Timebase\Drivers\STM32F4xx_HAL_Driver\Inc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\10_Timer_Timebase\Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\9_Uart_Interrupt\Drivers\CMSIS\Device\ST\STM32F4xx\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\9_Uart_Interrupt\Drivers\CMSIS\Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\9_Uart_Interrupt\Drivers\STM32F4xx_HAL_Driver\Inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Codes\Embedded Programming\Tutorials\HAL_API\9_Uart_Interrupt\Inc&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.576518408" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>

@@ -9,7 +9,7 @@ void uart_init(void);
 
 uint32_t rx_counter, tx_counter;
 
-uint8_t txBuffer[] = {10,20,30,40,50,60,70,80,90};
+uint8_t txBuffer[] = {10,20,30,40,50,60,70,80,90, 100};
 uint8_t rxBuffer[BUFFER_SIZE];
 
 int main()
@@ -47,7 +47,6 @@ void uart_init(void)
 	//Enable UART module clock access
     __HAL_RCC_USART1_CLK_ENABLE();
 
-
 	//Configure pins to act as alternate func pins(UART)
 
      GPIO_InitStruct.Pin  = GPIO_PIN_9|GPIO_PIN_10;
@@ -76,7 +75,7 @@ void uart_init(void)
 }
 
 
-void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart)
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
 {
 	++tx_counter;
 }
