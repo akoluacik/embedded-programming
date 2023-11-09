@@ -1310,7 +1310,7 @@ void KY017_LED_LOW(uint16_t Pin)
  80008f0:	40020000 	.word	0x40020000
 
 080008f4 <main>:
-#include "ky017ledmodule_config.h"
+
 
 extern const uint16_t KY017_LED_PINS[3];
 

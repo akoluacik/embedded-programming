@@ -1,0 +1,14 @@
+/*
+ * BME_280.c
+ *
+ *  Created on: Apr 16, 2023
+ *      Author: anil
+ */
+
+
+#include "BME_280.h"
+extern I2C_HandleTypeDef hi2c1;
+BME_280_Response	BME_280_softReset(void)
+{
+	HAL_I2C_Mem_Write(&hi2c1, DevAddress, MemAddress, MemAddSize, pData, Size, Timeout)
+}

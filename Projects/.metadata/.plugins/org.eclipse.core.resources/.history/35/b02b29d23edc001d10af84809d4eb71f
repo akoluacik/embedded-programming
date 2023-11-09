@@ -1,0 +1,14 @@
+/*
+ * BME_280.c
+ *
+ *  Created on: Apr 16, 2023
+ *      Author: anil
+ */
+
+
+#include "BME_280.h"
+
+BME_280_Response	BME_280_softReset(void)
+{
+
+}

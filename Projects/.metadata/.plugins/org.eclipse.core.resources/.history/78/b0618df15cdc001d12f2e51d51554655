@@ -1,0 +1,33 @@
+/*
+ * test.c
+ *
+ *  Created on: Apr 16, 2023
+ *      Author: anil
+ */
+
+void 	swap(double *n1, double *n2)
+{
+	double swap = *n1;
+	*n1 = *n2;
+	*n2 = swap;
+}
+
+void	sort_array(double *raw_sensor_value, size_t size)
+{
+	for (int i = 0; i < size - 1; ++i) {
+		for (int j = i + 1; j < size; ++j) {
+			if (arr[i] > arr[j])
+				swap(&arr[i], &arr[j]);
+		}
+	}
+}
+
+float filter_sensor_value(float *raw_sensor_value, size_t size, uint8_t window_size)
+{
+	sort_array(raw_sensor_value, size);
+	for (int var = 0; var < size; ++var) {
+		for (int j = 0; j < window_size; ++j) {
+
+		}
+	}
+}

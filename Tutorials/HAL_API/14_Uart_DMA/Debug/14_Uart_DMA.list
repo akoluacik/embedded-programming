@@ -4792,7 +4792,7 @@ void dma_config(DMA_Struct_t DMA_Uart_Tx, DMA_Struct_t DMA_Uart_Rx, UART_HandleT
  8002134:	6393      	str	r3, [r2, #56]	; 0x38
 
 	// UART RX DMA2 STREAM5
-	hdma_uart1_rx.Instance 	     		   = DMA2_Stream2;
+	hdma_uart1_rx.Instance 	     		   = DMA2_Stream5;
  8002136:	4b22      	ldr	r3, [pc, #136]	; (80021c0 <dma_config+0x104>)
  8002138:	4a22      	ldr	r2, [pc, #136]	; (80021c4 <dma_config+0x108>)
  800213a:	601a      	str	r2, [r3, #0]
@@ -4879,7 +4879,7 @@ void dma_config(DMA_Struct_t DMA_Uart_Tx, DMA_Struct_t DMA_Uart_Rx, UART_HandleT
  80021b8:	20000038 	.word	0x20000038
  80021bc:	400264b8 	.word	0x400264b8
  80021c0:	20000098 	.word	0x20000098
- 80021c4:	40026440 	.word	0x40026440
+ 80021c4:	40026488 	.word	0x40026488
 
 080021c8 <DMA2_Stream5_IRQHandler>:
 

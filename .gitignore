@@ -1,0 +1,10 @@
+Tutorials/*/.settings/
+Tutorials/*/.settings/
+Tutorials/*/Debug/Core/
+Tutorials/*/Debug/Drivers/
+Tutorials/*/Debug/Middlewares/
+Tutorials/*/Debug/*.elf
+Tutorials/*/Debug/*.list
+Tutorials/*/Debug/*.map
+Tutorials/*/Debug/makefile
+Tutorials/*/Debug/*.mk

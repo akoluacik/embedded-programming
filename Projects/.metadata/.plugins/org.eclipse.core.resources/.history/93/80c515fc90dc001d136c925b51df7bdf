@@ -1,0 +1,19 @@
+/*
+ * sensors.c
+ *
+ *  Created on: 16 Nis 2023
+ *      Author: anil
+ */
+
+
+#include "sensors.h"
+
+float temperature;
+float humidity;
+float co2;
+
+void	measure_temperature(enum sensor_t sensor_type)
+{
+	// Assume a float temperature value is obtained from raw values
+	temperature = i2c_sensor_read(sensor_type);
+}

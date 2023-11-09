@@ -1,0 +1,33 @@
+/*
+ * sensors.h
+ *
+ *  Created on: 16 Nis 2023
+ *      Author: anil
+ */
+
+#ifndef INC_SENSORS_H_
+#define INC_SENSORS_H_
+
+typedef enum
+{
+	SENSOR_OK,
+	SENSOR_ERROR
+} sensor_resp_t;
+
+enum {
+	TEMPERATURE_SENSOR = 0,
+	HUMIDITY_SENSOR,
+	CO2_SENSOR
+} sensor_t;
+
+/* Initialization Functions */
+sensor_resp_t initTempSensor(void);
+sensor_resp_t initHumiditySensor(void);
+sensor_resp_t initCO2Sensor(void);
+
+/* Measure Functions (each calls float i2c_sensor_read(uint8_t device_address, enum sensor_t sensor_type)) */
+void	measure_temperature(void);
+void	measure_humidity(void);
+void	measure_co2(void);
+
+#endif /* INC_SENSORS_H_ */

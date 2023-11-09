@@ -1,6 +1,7 @@
 #include "stm32f4xx_hal.h"
 #include "ky017ledmodule_config.h"
 
+
 extern const uint16_t KY017_LED_PINS[3];
 
 int main(void)
