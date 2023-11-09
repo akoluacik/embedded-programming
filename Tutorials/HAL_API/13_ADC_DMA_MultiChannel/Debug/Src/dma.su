@@ -1,2 +1,0 @@
-../Src/dma.c:12:6:dma_config	16	static
-../Src/dma.c:43:6:DMA2_Stream0_IRQHandler	8	static

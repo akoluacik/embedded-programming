@@ -1,0 +1,3 @@
+../Core/Src/queue.c:10:6:enqueue	32	static
+../Core/Src/queue.c:26:8:dequeue	32	static
+../Core/Src/queue.c:35:9:array2queue	32	static

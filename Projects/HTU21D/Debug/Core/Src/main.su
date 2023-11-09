@@ -1,0 +1,7 @@
+../Core/Src/main.c:72:5:main	16	static
+../Core/Src/main.c:118:6:SystemClock_Config	88	static
+../Core/Src/main.c:165:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:199:13:MX_GPIO_Init	24	static
+../Core/Src/main.c:211:6:HTU21D_SensorInit	32	static
+../Core/Src/main.c:218:6:HTU21D_Measurement	32	static
+../Core/Src/main.c:242:6:Error_Handler	4	static,ignoring_inline_asm

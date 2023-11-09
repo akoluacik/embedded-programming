@@ -1,3 +1,0 @@
-../Src/adc.c:14:10:pa0_adc_read	8	static
-../Src/adc.c:19:6:adc_pa0_continuous_conv_init	56	static
-../Src/adc.c:56:6:adc_init_start	8	static

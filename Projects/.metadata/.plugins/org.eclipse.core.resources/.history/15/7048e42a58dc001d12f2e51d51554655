@@ -1,7 +1,0 @@
-../Core/Src/BME_280.c:31:18:BME_280_softReset	32	static
-../Core/Src/BME_280.c:40:18:BME_280_trimmingParameter	64	static
-../Core/Src/BME_280.c:69:18:BME_280_config	48	static
-../Core/Src/BME_280.c:110:9:BME280_compensate_T_int32	32	static
-../Core/Src/BME_280.c:125:10:BME280_compensate_P_int64	328	static
-../Core/Src/BME_280.c:181:10:bme280_compensate_H_int32	24	static
-../Core/Src/BME_280.c:197:18:BME_280_measure	40	static
